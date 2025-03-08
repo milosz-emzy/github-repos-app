@@ -30,7 +30,8 @@ public class GitHubControllerIntegrationTest {
                 .contains("hello-openai")
                 .contains("neetcode")
                 .contains("java-multithreading")
-                .contains("java-features");
+                .contains("java-features")
+                .contains("github-repos-app");
 
         //should not contain Spoon-Knife, because fork=true
         assertThat(response)
